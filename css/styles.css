@@ -430,6 +430,7 @@ input[type='checkbox'] {
 	color: #ffffff;
 	text-decoration: none;
 	transition: all 0.2s ease;
+	margin-right:25px;
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
@@ -521,7 +522,7 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/header-bg/photo_2024-11-25_12-19-02.png') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
