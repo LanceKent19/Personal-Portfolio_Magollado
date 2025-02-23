@@ -25,10 +25,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
+	<link href="main-style/styles.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/header-bg/Logo1.png">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h1 class="h1-large">I love to create beautiful and efficient websites</h1>
+                        <h1 class="h1-large">I love to create innovative and efficient systems</h1>
                         <a class="btn-solid-lg page-scroll" href="#about">Discover</a>
                         <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Me</a>
                     </div> <!-- end of text-container -->

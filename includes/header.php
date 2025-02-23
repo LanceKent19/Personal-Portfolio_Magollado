@@ -2,11 +2,11 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
             
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.php"><img src="images/header-bg/Logo1.png" alt="Portfolio-Logo"></a>  
+            <!-- Image Logo 
+            <a class="navbar-brand logo-image" href="index.php"><img src="images/header-bg/Logo1.png" alt="Portfolio-Logo"></a>   -->
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mark</a> -->
+            <a class="navbar-brand logo-text page-scroll" href="index.php">Lance Tech</a>
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
