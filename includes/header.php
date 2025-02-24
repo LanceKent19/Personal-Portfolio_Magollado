@@ -6,7 +6,7 @@
             <a class="navbar-brand logo-image" href="index.php"><img src="images/header-bg/Logo1.png" alt="Portfolio-Logo"></a>   -->
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <a class="navbar-brand logo-text page-scroll" href="index.php">Lance Tech</a>
+            <a class="navbar-brand logo-text page-scroll" href="index.php">Lance</a>
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>

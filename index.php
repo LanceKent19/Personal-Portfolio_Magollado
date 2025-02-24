@@ -18,7 +18,7 @@
 	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
-    <title>Lance Magollado Portfolio</title>
+    <title>LancetechInno</title>
     
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -35,15 +35,48 @@
     <?php
     require_once("includes/header.php");
     ?>
-
-
     <!-- Header -->
     <header id="header" class="header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h1 class="h1-large">I love to create innovative and efficient systems</h1>
+                        <h1 class="h1-large">Lance Kent Geoffrey B. Magollado <p class="specialist">I'm a <span class="typed"></span></p></h1>
+                        
+                        <script>
+                            const words = ["Developer", "Technical Writer", "Programmer", "Designer"];
+let index = 0;
+let charIndex = 0;
+let isDeleting = false;
+const typingSpeed = 150;
+const erasingSpeed = 100;
+const delayBetweenWords = 1000; // Delay before erasing
+const typedSpan = document.querySelector(".typed");
+
+function typeEffect() {
+    const currentWord = words[index];
+    if (!isDeleting) {
+        typedSpan.textContent = "\u00A0" +  currentWord.substring(0, charIndex + 1);
+        charIndex++;
+        if (charIndex === currentWord.length) {
+            isDeleting = true;
+            setTimeout(typeEffect, delayBetweenWords);
+            return;
+        }
+    } else {
+        typedSpan.textContent = "\u00A0" + currentWord.substring(0, charIndex - 1);
+        charIndex--;
+        if (charIndex === 0) {
+            isDeleting = false;
+            index = (index + 1) % words.length;
+        }
+    }
+    setTimeout(typeEffect, isDeleting ? erasingSpeed : typingSpeed);
+}
+
+document.addEventListener("DOMContentLoaded", () => setTimeout(typeEffect, 500));
+
+                        </script>
                         <a class="btn-solid-lg page-scroll" href="#about">Discover</a>
                         <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Me</a>
                     </div> <!-- end of text-container -->
