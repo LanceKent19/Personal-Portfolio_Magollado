@@ -41,8 +41,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h1 class="h1-large">Lance Kent Geoffrey B. Magollado <p class="specialist">I'm a <span class="typed"></span></p></h1>
-                        
+                        <h1 class="h1-large">Lance Kent Geoffrey B. Magollado</h1>
+                            <!-- <p class="specialist">I'm a <span class="typed"></span></p>
                         <script>
                             const words = ["Developer", "Technical Writer", "Programmer", "Designer"];
 let index = 0;
@@ -74,11 +74,14 @@ function typeEffect() {
     setTimeout(typeEffect, isDeleting ? erasingSpeed : typingSpeed);
 }
 
-document.addEventListener("DOMContentLoaded", () => setTimeout(typeEffect, 500));
+document.addEventListener("DOMContentLoaded", () => setTimeout(typeEffect, 500)); -->
 
-                        </script>
+                        <!-- </script> -->
+                        <div class="btn-container">
                         <a class="btn-solid-lg page-scroll" href="#about">Discover</a>
                         <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Me</a>
+                        </div>
+                      
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->

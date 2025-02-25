@@ -34,6 +34,12 @@
                                 <i class="fab fa-youtube fa-stack-1x"></i>
                             </a>
                         </span>
+                        <span class="fa-stack">
+                            <a href="https://github.com/LanceKent19" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x"></i>
+                            </a>
+                        </span>
                     </div> <!-- end of social-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
